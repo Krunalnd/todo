@@ -8,6 +8,7 @@ import 'package:todo/utils/app_str.dart';
 import 'package:todo/utils/constants.dart';
 import 'package:todo/views/home/components/fab.dart';
 import 'package:todo/views/home/components/home_app_bar.dart';
+import 'package:todo/views/home/components/slider_drawer.dart';
 import 'package:todo/views/home/widget/task_widget.dart';
 
 class HomeView extends StatefulWidget {
@@ -34,9 +35,9 @@ class _HomeViewState extends State<HomeView> {
         animationDuration:1000,
         isDraggable: false,
         ///Drawer
-        slider: Container(color: Colors.blue),
+        slider: CustomDrawer(),
 
-        appBar: HomeAppBar(drawerKey: drawerKey,),
+        //appBar: HomeAppBar(drawerKey: drawerKey,),
         ///Main Body
         child: buildHomeBody(textTheme),
       ),
