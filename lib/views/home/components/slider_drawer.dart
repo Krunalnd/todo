@@ -58,6 +58,7 @@ class CustomDrawer extends StatelessWidget {
             width: double.infinity,
             height: 300,
             child: ListView.builder(
+              physics: const NeverScrollableScrollPhysics(),
               itemCount: icons.length,
               itemBuilder: (BuildContext context, int index) {
                 return InkWell(

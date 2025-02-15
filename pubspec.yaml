@@ -35,6 +35,9 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.8
 
+  # Generate
+  uuid: ^4.5.1
+
   #Provides internationalization and localization facilities
   intl: ^0.20.2
 
@@ -55,6 +58,8 @@ dependencies:
 
   #Date Picker
   flutter_cupertino_date_picker_fork: ^1.0.7
+  hive_flutter: ^1.1.0
+
 
 
 dev_dependencies:
