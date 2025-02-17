@@ -1,8 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
     <application
-        android:label="todo"
-        android:name="${applicationName}"
-        android:icon="@mipmap/ic_launcher">
+        android:label="TODO APP"
+        android:icon="@mipmap/todo_logo">
         <activity
             android:name=".MainActivity"
             android:exported="true"
